@@ -3,6 +3,9 @@
 }
 
 a {
+  display: flex;
+  justify-content: auto;
+  align-items: auto;
   color: lighten(#413f3f, 20%);
 }
 .fondo {
@@ -41,12 +44,23 @@ nav, a header{
   margin-top: 20px;
 }
 
-.contenido, .container {
+.contenido {
   margin-top: 0;
-  margin-bottom: 20%;
+  margin-bottom: 3px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
+}
+.container {
+  margin-left: 20px;
+  padding: 10px;
+  width: 350px;
+  height: 420px;
+  margin-top: 0;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-between;
 }
 .cabecera{
  display: block;

@@ -4,16 +4,18 @@
 {%block content %}
 
 {% for project in projects %}
+<div class="container">
 <div class="card">  	
     <div>
         <img class="img-fluid" src="{{project.image.url}}" alt="">
     </div>
-  <div class="col-lg-7 col-md-8">
+  <div>
         <h2 class="projecttitle">{{project.name}}</h2>   
     <p class="projectdescription">{{project.description}}</p>
-    <p><a href="https://ezequielivanrs.github.io/TPO6/">Link</a></p>
+    <p><a href="{{project.link}}">Link</a></p>
+      </div>
     </div>
-</div>
+   </div>
 </div>
 {% endfor %}
 
