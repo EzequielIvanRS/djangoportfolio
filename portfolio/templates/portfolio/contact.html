@@ -1,0 +1,28 @@
+{% extends 'portfolio/index.html' %}{% load static %}
+{% block background %}{% static '/img/background-contact.jpeg' %}{% endblock %} 
+{% block content %}
+
+<div class="cabecera">
+  <span class="subtitulo">Contacto:</span>
+  <ul>
+    <li>
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:ezequielivan.rs@gmail.com?subject=desarrolloweb"
+        >Contactar por mail</a
+      >
+    </li>
+    <li>
+      <i class="fa-brands fa-linkedin"></i>
+      <a
+        href="https://www.linkedin.com/in/ezequiel-ivan-rodriguez-santos-216b6726a/"
+        >LinkedIn</a
+      >
+    </li>
+    <li>
+      <i class="fa-brands fa-github"></i>
+      <a href="https://github.com/EzequielIvanRS">GitHub</a>
+    </li>
+  </ul>
+</div>
+
+{% endblock %} {% block title %}Contacto{% endblock %}

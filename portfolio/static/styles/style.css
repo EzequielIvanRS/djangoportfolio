@@ -1,0 +1,122 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: lighten(#413f3f, 20%);
+}
+.fondo {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  background-color: #ebebeb;
+ 
+}
+nav, .container-fluid, .overlay, .navbar .navbar-expand-lg .bg-body-tertiary {
+  background-color: transparent;
+}
+nav, a header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container-fluid{
+  background-color: none;
+  background:no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-attachment:scroll;
+  position:relative;
+  background-size:cover
+}
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  opacity:.5}
+
+.footer {
+  margin-top: 20px;
+}
+
+.contenido, .container {
+  margin-top: 0;
+  margin-bottom: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cabecera{
+ display: block;
+ margin-top: 60px 0;
+}
+.titulo, .subtitulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 5rem;
+}
+.descripcion{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display:flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-weight: 600;
+}
+
+h2, ul li{
+  margin: 30px 0;
+  display:block;
+  
+}
+ul li{
+  display:block;
+  padding: 20px;
+  margin: 5px 0;
+}
+
+.card {
+  
+  width: 350px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #ebebeb;
+  overflow: hidden;
+  display: flex;
+  justify-content:baseline;
+  align-items: center;
+  font-size: small;
+  border: 1px solid #ccc;
+}
+.img-fluid{
+  height: 200px;
+  width: 350px;
+}
+.projecttitle{
+  font-size: medium;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+.projectdescription{
+  height: 150px;
+  font-size: small;
+  justify-content: flex-start;
+  align-items: center ;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+}
+
+i{
+  color: rgba(rgb(0, 0, 0), rgb(0, rgba(3, 3, 88, 0.905)), blue, 100%)
+}
+

@@ -1,0 +1,28 @@
+{% extends 'portfolio/index.html' %}{% load static %} {% block background %}{% static '/img/background-projects.jpeg' %}{% endblock %}
+
+
+{%block content %}
+
+{% for project in projects %}
+<div class="card">  	
+    <div>
+        <img class="img-fluid" src="{{project.image.url}}" alt="">
+    </div>
+  <div class="col-lg-7 col-md-8">
+        <h2 class="projecttitle">{{project.name}}</h2>   
+    <p class="projectdescription">{{project.description}}</p>
+    <p><a href="https://ezequielivanrs.github.io/TPO6/">Link</a></p>
+    </div>
+</div>
+</div>
+{% endfor %}
+
+{% endblock %}{% block title %}Portfolio{% endblock %}
+
+
+
+
+
+
+ 
+
